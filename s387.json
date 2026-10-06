@@ -21,7 +21,7 @@
     "lovable_commit": "23a56e899b79b77511f9e558cd697789a9f7a1b1"
   },
   "migration": {
-    "binary_assets": "Product/logo/SEO assets reconstructed from the same Swan public sources and deterministic transforms used by the original project. The original generated hero image was unavailable through the connector; hero background uses Swan retail source cover.jpg."
+    "binary_assets": "Product/logo/SEO assets reconstructed from original Swan sources; the exact user-supplied original hero image has been restored."
   },
   "backend": {
     "kind": "supabase",
