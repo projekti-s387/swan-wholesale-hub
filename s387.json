@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "name": "swan-wholesale-hub",
+  "domains": [
+    "swan-wholesale-hub.dev.studio387.ba"
+  ],
+  "runtime": {
+    "kind": "node",
+    "port": 3000,
+    "image": "node:24-alpine",
+    "output": ".output",
+    "entry": "server/index.mjs",
+    "start": [
+      "node",
+      "server/index.mjs"
+    ]
+  },
+  "source": {
+    "origin": "lovable",
+    "lovable_project_id": "e24d3526-f756-44c9-b0dc-465806d98b60",
+    "lovable_commit": "23a56e899b79b77511f9e558cd697789a9f7a1b1"
+  },
+  "migration": {
+    "binary_assets": "Product/logo/SEO assets reconstructed from the same Swan public sources and deterministic transforms used by the original project. The original generated hero image was unavailable through the connector; hero background uses Swan retail source cover.jpg."
+  },
+  "backend": {
+    "kind": "supabase",
+    "api_host": "swan-wholesale-hub-api.dev.studio387.ba",
+    "network_alias": "s387-swan-wholesale-hub-supabase",
+    "stack_dir": "/srv/studio387/stacks/swan-wholesale-hub/supabase",
+    "postgres_host_port": 16123,
+    "pooler_host_port": 17188,
+    "api_host_port": 18701
+  }
+}
